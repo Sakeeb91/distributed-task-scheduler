@@ -1,0 +1,35 @@
+# Scala/sbt specific
+target/
+project/target/
+project/project/
+.bsp/
+.metals/
+.bloop/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials
+*.env
+.env.*
+credentials.json
+secrets.yaml
+
+# Logs
+logs/
+*.log
+
+# Test databases
+*.db
+*.sqlite
+
+# Build artifacts
+*.jar
+*.war
+*.class
